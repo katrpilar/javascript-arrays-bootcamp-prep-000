@@ -5,6 +5,7 @@ function addElementToBeginningOfArray(arry,val){
 }
 
 function destructivelyAddElementToBeginningOfArray(arry,val){
-  const arry = [val, ...arry];
+  const v2 = val
+  arry = [val, ...arry];
   return arry;
 }
